@@ -1,0 +1,15 @@
+{
+	"name": "adfabhishekraw",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e543d4f0-0672-4af9-9cdf-c11e7008dc8d",
+		"tenantId": "41a3f9a0-72d8-42ad-a836-4e6754d492e6"
+	}
+}
