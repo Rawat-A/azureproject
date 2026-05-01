@@ -1,43 +1,6 @@
 {
 	"name": "retail pipeline",
 	"properties": {
-		"activities": [
-			{
-				"name": "ForEach1",
-				"type": "ForEach",
-				"dependsOn": [],
-				"userProperties": [],
-				"typeProperties": {
-					"items": {
-						"value": "@pipeline().parameters.source_list",
-						"type": "Expression"
-					}
-				}
-			}
-		],
-		"parameters": {
-			"source_list": {
-				"type": "array",
-				"defaultValue": [
-					{
-						"type": "sql",
-						"name": "products"
-					},
-					{
-						"type": "sql",
-						"name": "stores"
-					},
-					{
-						"type": "sql",
-						"name": "transactions"
-					},
-					{
-						"type": "api",
-						"name": "customers"
-					}
-				]
-			}
-		},
 		"annotations": []
 	}
 }
